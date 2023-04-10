@@ -1,0 +1,23 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+#container {
+  display: flex;
+  gap: 1px;
+  max-width: 1164px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex: wrap;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border: 0px solid white;
+}
